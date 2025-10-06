@@ -1,3 +1,6 @@
+<img width="999" height="526" alt="resim" src="https://github.com/user-attachments/assets/4ed9224a-2409-4c0e-8050-2a2ff34200d3" />
+
+
 # 🧩 TFT Trait Tracker Algorithm (v2.0.0)
 
 **Fast and clean** Node.js algorithm that finds the **minimum number of champions** required to activate **seven traits** in *Teamfight Tactics (TFT)* — now using **iterative deepening** over team size for guaranteed minimality.
