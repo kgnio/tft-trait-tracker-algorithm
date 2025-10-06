@@ -1,17 +1,21 @@
-<img width="842" height="609" alt="resim" src="https://github.com/user-attachments/assets/55868164-1669-4c5b-8315-3db565cddebd" />
-
-
-<img width="845" height="609" alt="resim" src="https://github.com/user-attachments/assets/772dd180-50f8-4b5f-b7eb-943e834ea8a3" />
-
-
-<img width="999" height="526" alt="resim" src="https://github.com/user-attachments/assets/4ed9224a-2409-4c0e-8050-2a2ff34200d3" />
-
 
 # 🧩 TFT Trait Tracker Algorithm (v2.0.0)
 
 **Fast and clean** Node.js algorithm that finds the **minimum number of champions** required to activate **seven traits** in *Teamfight Tactics (TFT)* — now using **iterative deepening** over team size for guaranteed minimality.
 
 This version tries teams in order of size `k = 1, 2, 3, ...` (sorted from **cheapest champions first**) and **stops at the first feasible size**. Within the same `k`, it applies strict tie‑breakers (no 5‑costs → no 4‑costs → lowest average cost → lowest total cost → stable alphabetical).
+
+---
+
+<img width="842" height="609" alt="resim" src="https://github.com/user-attachments/assets/55868164-1669-4c5b-8315-3db565cddebd" />
+
+---
+
+<img width="845" height="609" alt="resim" src="https://github.com/user-attachments/assets/772dd180-50f8-4b5f-b7eb-943e834ea8a3" />
+
+---
+
+<img width="999" height="526" alt="resim" src="https://github.com/user-attachments/assets/4ed9224a-2409-4c0e-8050-2a2ff34200d3" />
 
 ---
 
