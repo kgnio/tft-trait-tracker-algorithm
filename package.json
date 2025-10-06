@@ -1,0 +1,20 @@
+{
+  "name": "tft-trait-tracker-algorithm",
+  "version": "1.0.0",
+  "description": "An algorithm that finds the most efficient way to unlock 7 traits in TFT with the minimum number and cost of champions.",
+  "main": "solve.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kgnio/tft-trait-tracker-algorithm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kgnio/tft-trait-tracker-algorithm/issues"
+  },
+  "homepage": "https://github.com/kgnio/tft-trait-tracker-algorithm#readme"
+}
