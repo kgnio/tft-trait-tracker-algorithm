@@ -102,7 +102,7 @@ function dfsFixedK(k, startIdx, chosen, bestForK) {
             const cand = { team: chosen.slice(), traits: activated, score: tiebreakScore(chosen) };
             if (!bestForK || better(cand, bestForK) < 0) {
                 bestForK = cand;
-                console.log(`✅ candidate(k=${k}) | 5=${cand.score.has5 ? 'y' : 'n'} 4=${cand.score.has4 ? 'y' : 'n'} avg=${cand.score.avg.toFixed(2)} | team=${cand.team.map(c => `${c.name}(${c.cost})`).join(', ')}`);
+                console.log(`👌 candidate(k=${k}) | 5=${cand.score.has5 ? 'y' : 'n'} 4=${cand.score.has4 ? 'y' : 'n'} avg=${cand.score.avg.toFixed(2)} | team=${cand.team.map(c => `${c.name}(${c.cost})`).join(', ')}`);
             }
         }
         return bestForK;
@@ -127,14 +127,14 @@ for (let k = 1; k <= pool.length; k++) {
     const bestK = dfsFixedK(k, 0, [], null);
     if (bestK) {
         final = bestK;
-        console.log(`\n🎯 Found minimal team size: k=${k}`);
+        console.log(`\n 👍 Found minimal team size: k=${k}`);
         break; // stop at the first k that works
     }
 }
 
 console.log("──────────────────────────────────────────────");
 if (!final) {
-    console.log("❌ No feasible combination. Adjust exclusions/thresholds.");
+    console.log("🫥 No feasible combination. Adjust exclusions/thresholds.");
 } else {
     const names = final.team.map(c => c.name);
     const costs = final.team.map(c => c.cost);
